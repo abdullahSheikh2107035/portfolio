@@ -1,0 +1,14 @@
+{
+  "emmet.includeLanguages": {
+    "php": "html",
+    "blade": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "html.suggest.html5": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+  "tailwindCSS.emmetCompletions": true
+}
