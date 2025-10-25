@@ -129,6 +129,36 @@
 </section>
 
 
+<section class="skill-sec mt-32 px-6 max-w-5xl mx-auto text-center">
+  <!-- Heading -->
+  <h2 class="text-xl sm:text-2xl md:text-3xl font-medium text-gray-200 leading-relaxed">
+    I'm currently looking to join a cross-functional team that values improving people's lives through 
+    <span class="text-[#1e0536] font-semibold">accessible design</span>.
+  </h2>
+
+  <!-- Skill Icons Row 1 -->
+  <div class="flex flex-wrap justify-center gap-6 mt-12">
+    <img src="./assets/js.png" alt="JavaScript" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/cpp.png" alt="C++" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/java.png" alt="Java" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/python.png" alt="Python" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/html-5.png" alt="HTML" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/coding (1).png" alt="Coding" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/skill.png" alt="Skills" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+  </div>
+
+  <!-- Skill Icons Row 2 -->
+  <div class="flex flex-wrap justify-center gap-6 mt-6">
+    <img src="./assets/responsive.png" alt="Responsive Design" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/ml.png" alt="Machine Learning" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/figma.png" alt="Figma" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/css-3.png" alt="CSS" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+    <img src="./assets/artificial-intelligence.png" alt="AI" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
+  </div>
+</section>
+
+
+
   </main>
 <footer>
 
