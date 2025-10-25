@@ -72,11 +72,11 @@
 <main>
   <section class="intro-sec mt-20 max-w-3xl mx-auto px-4 text-center flex flex-col items-center gap-5">
   <h2 class="text-3xl sm:text-5xl font-semibold text-white">
-    I'm a <span class="text-[#1e0536]">Software Engineer</span>
+    I'm a <span class="text-[#1e0536]">Web Developer</span>
   </h2>
 
   <div class="flex flex-col sm:flex-row items-center justify-center gap-2 text-gray-300">
-    <p>Currently, I'm a Software Engineer at</p>
+    <p>Currently, I'm a Web Developer at</p>
     <div class="flex items-center gap-2">
       <img src="./assets/facebook.png" alt="facebook icon" class="w-5 h-5">
       <a href="https://www.facebook.com/" target="_blank" class="text-[#1877F2] font-medium hover:underline">
@@ -91,6 +91,41 @@
     <span class="text-white font-medium">user needs</span> and  
     <span class="text-white font-medium">business goals</span>.
   </p>
+</section>
+
+
+<section class="mt-24 px-4 max-w-4xl mx-auto text-white">
+  <h2 class="text-3xl sm:text-5xl font-semibold mb-10 text-center">
+    Work <span class="text-[#1e0536]">Experience</span>
+  </h2>
+
+  <div class="grid gap-8 sm:gap-10 sm:flex sm:jusrtify-center">
+    <!-- Facebook -->
+    <div class="bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-xl sm:text-2xl font-semibold text-[#e5e5e5]">
+        Web Developer at <span class="text-[#1877F2]">Facebook</span>
+      </h3>
+      <p class="text-gray-400 text-sm sm:text-base mt-1">Jan 2021 – Present</p>
+      <ul class="list-disc list-inside mt-3 text-gray-300 space-y-2 text-sm sm:text-base">
+        <li>Developed and maintained web applications using React and Node.js.</li>
+        <li>Collaborated with cross-functional teams to design user-friendly interfaces.</li>
+        <li>Optimized application performance, achieving a 20% faster load time.</li>
+      </ul>
+    </div>
+
+    <!-- Google -->
+    <div class="bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-xl sm:text-2xl font-semibold text-[#e5e5e5]">
+        Frontend Developer at <span class="text-[#DB4437]">Google</span>
+      </h3>
+      <p class="text-gray-400 text-sm sm:text-base mt-1">Jun 2018 – Dec 2020</p>
+      <ul class="list-disc list-inside mt-3 text-gray-300 space-y-2 text-sm sm:text-base">
+        <li>Implemented responsive designs using HTML, CSS, and JavaScript.</li>
+        <li>Worked closely with designers to maintain brand consistency.</li>
+        <li>Conducted user testing and refined UI/UX based on feedback.</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 
