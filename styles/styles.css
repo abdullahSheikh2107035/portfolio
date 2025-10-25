@@ -3,4 +3,34 @@
   font-weight: 400;
   font-style: normal;
 }
+ 
+/* Section visibility (fallback if Tailwind isn't built) */
+.section {
+  display: none;
+  padding: 1rem;
+}
+.section.active {
+  display: block;
+}
+
+/* Simple nav styles */
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+.site-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.site-nav a.active {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Utility: visually hidden for accessibility */
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 

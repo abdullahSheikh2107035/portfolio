@@ -25,10 +25,10 @@
 
       <!-- Navigation Links -->
       <ul id="menu" class="hidden flex-col sm:flex sm:flex-row sm:gap-10 text-lg font-semibold w-full sm:w-auto mt-4 sm:mt-0">
-        <li class="cursor-pointer hover:text-gray-300">HOME</li>
-        <li class="cursor-pointer hover:text-gray-300">ABOUT</li>
-        <li class="cursor-pointer hover:text-gray-300">LAB</li>
-        <li class="cursor-pointer hover:text-gray-300">CONTACT</li>
+        <li><a href="#hero" class="cursor-pointer hover:text-gray-300 p-2">HOME</a></li>
+        <li><a href="#about" class="cursor-pointer hover:text-gray-300 p-2">ABOUT</a></li>
+        <li><a href="#lab" class="cursor-pointer hover:text-gray-300 p-2">LAB</a></li>
+        <li><a href="#contact" class="cursor-pointer hover:text-gray-300 p-2">CONTACT</a></li>
       </ul>
     </nav>
   </header>
@@ -41,8 +41,9 @@
       menu.classList.toggle('hidden');
     });
   </script>
-  <div class="banner mt-24 text-center sm:text-left flex flex-col items-center sm:flex-row sm:justify-center sm:gap-10">
+  <div id="hero" class="banner mt-24 text-center sm:text-left flex flex-col items-center sm:flex-row sm:justify-center sm:gap-10">
   <!-- Text Section -->
+
   <div class="hero-info flex flex-col items-center sm:items-start gap-3 max-w-md">
     <p class="text-gray-200 text-sm sm:text-base">
       Hello! I am 
@@ -94,7 +95,7 @@
 </section>
 
 
-<section class="mt-24 px-4 max-w-4xl mx-auto text-white">
+<section id="about" class="mt-24 px-4 max-w-4xl mx-auto text-white">
   <h2 class="text-3xl sm:text-5xl font-semibold mb-10 text-center">
     Work <span class="text-[#1e0536]">Experience</span>
   </h2>
@@ -156,53 +157,79 @@
     <img src="./assets/artificial-intelligence.png" alt="AI" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
   </div>
 </section>
-<section class="projects-section mt-16 px-6 max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-8">
-  <!-- Project 1 -->
-  <div class="flex-1 flex flex-col lg:flex-row items-center gap-6">
-    <!-- Text -->
-    <div class="flex-1 text-center lg:text-left">
-      <p class="text-xs uppercase tracking-wide text-gray-400">Featured Project</p>
-      <h2 class="text-2xl sm:text-3xl font-semibold text-white mt-1 mb-3">
-        Example Project
-      </h2>
-      <p class="text-gray-300 text-sm sm:text-base leading-relaxed bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-        Fauget is a modern and elegant e-commerce web application designed for a flower boutique that specializes in fresh and exotic floral arrangements. Users can browse curated flower collections, learn bouquet details, and make seamless purchases online. The clean design emphasizes beauty, color, and freshness for a soothing shopping experience.
+<section id="lab" class="example-projects-1 mt-24 px-6 max-w-6xl mx-auto flex lg:flex-row items-center gap-10">
+  <!-- Text Section -->
+  <div class="flex-1 text-center lg:text-left">
+    <p class="text-sm uppercase tracking-wide text-gray-400">Featured Project</p>
+    <h2 class="text-3xl sm:text-4xl font-semibold text-white mt-2 mb-4">
+      Example Project
+    </h2>
+
+    <div class="bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+      <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+        Fauget is a modern and elegant e-commerce web application designed for a flower boutique that specializes in fresh and exotic floral arrangements. The platform allows users to browse a curated selection of flower collections, learn about each bouquet’s details, and make seamless purchases online. With a clean and minimalist design, the website emphasizes the beauty, color, and freshness of the flowers, offering users a soothing shopping experience.
       </p>
-    </div>
-    <!-- Image -->
-    <div class="flex-1">
-      <img src="./assets/exm-project-1.png" alt="Example Project Screenshot"
-        class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
     </div>
   </div>
 
-  <!-- Project 2 -->
-  <div class="flex-1 flex flex-col lg:flex-row-reverse items-center gap-6 mt-12 lg:mt-0">
-    <!-- Text -->
-    <div class="flex-1 text-center lg:text-left">
-      <p class="text-gray-300 text-sm sm:text-base leading-relaxed bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-        <span class="font-semibold text-white">Emergency Hotline</span> centralizes government emergency services, allowing citizens to quickly access national emergency numbers. The main helpline is 999 for all emergencies. The interface is simple, offering direct call or copy options and call history for convenience, making emergency support easily accessible across Bangladesh.
-      </p>
-    </div>
-    <!-- Image -->
-    <div class="flex-1">
-      <img src="./assets/exm-project-2.png" alt="Example Project Screenshot"
-        class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
+  <!-- Image Section -->
+  <div class="flex-1">
+    <img src="./assets/exm-project-1.png" alt="Example Project Screenshot"
+      class="w-full h-auto rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500">
+  </div>
+</section>
+<section class="example-projects-2 mt-24 px-6 max-w-6xl mx-auto flex  lg:flex-row items-center gap-10">
+  
+  <!-- Image Section -->
+  <div class="flex-1">
+    <img src="./assets/exm-project-2.png" alt="Example Project Screenshot"
+      class="w-full h-auto rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500">
+  </div>
+
+  <!-- Text Section -->
+  <div class="flex-1 bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+    <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
+      <span class="font-semibold text-white">Emer</span> is a modern and elegant e-commerce web application designed for a flower boutique that specializes in fresh and exotic floral arrangements. The platform allows users to browse a curated selection of flower collections, learn about each bouquet’s details, and make seamless purchases online. With a clean and minimalist design, the website emphasizes the beauty, color, and freshness of the flowers, offering users a soothing shopping experience.
+    </p>
+  </div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="mt-24 px-6 max-w-4xl mx-auto text-center pb-20">
+  <h2 class="text-3xl sm:text-5xl font-semibold mb-10">
+    Let's <span class="text-[#1e0536]">Connect</span>
+  </h2>
+  
+  <div class="bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-2xl p-6 sm:p-8">
+    <div class="flex flex-col sm:flex-row justify-center gap-8 sm:gap-16">
+      <!-- Email -->
+      <div class="flex flex-col items-center gap-2">
+        <img src="./assets/email.png" alt="Email" class="w-8 h-8">
+        <h3 class="text-lg font-semibold">Email</h3>
+        <a href="mailto:abdullahsheikh6474760@gmail.com" class="text-gray-300 hover:text-white">abdullahsheikh6474760@gmail.com</a>
+      </div>
+      
+      <!-- LinkedIn -->
+      <div class="flex flex-col items-center gap-2">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="w-8 h-8">
+        <h3 class="text-lg font-semibold">LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/md-abdullah-430868268/" target="_blank" class="text-gray-300 hover:text-white">ABDULLAH SHEIKH</a>
+      </div>
+      
+      <!-- GitHub -->
+      <div class="flex flex-col items-center gap-2">
+        <img src="./assets/github.png" alt="GitHub" class="w-8 h-8">
+        <h3 class="text-lg font-semibold">GitHub</h3>
+        <a href="https://github.com/abdullahSheikh2107035" target="_blank" class="text-gray-300 hover:text-white">abdullahSheikh2107035</a>
+      </div>
     </div>
   </div>
 </section>
 
-
-
- 
-
-
   </main>
-<footer class="mt-32 py-6 border-t border-gray-600 text-center text-gray-400 text-sm">
-  <h2 class>Contact</h2>
-  &copy; 2024 Abdullah Sheikh. All rights reserved.
-
-
+<footer class="text-center py-6 text-sm text-gray-400">
+  <p>© 2025 ABDULLAH SHEIKH. All rights reserved.</p>
 </footer>
 <script src="./scripts/main.js"></script>
 </body>
