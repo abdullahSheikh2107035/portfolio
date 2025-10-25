@@ -156,11 +156,52 @@
     <img src="./assets/artificial-intelligence.png" alt="AI" class="w-10 h-10 sm:w-12 sm:h-12 hover:scale-110 transition-transform duration-300">
   </div>
 </section>
+<section class="projects-section mt-16 px-6 max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-8">
+  <!-- Project 1 -->
+  <div class="flex-1 flex flex-col lg:flex-row items-center gap-6">
+    <!-- Text -->
+    <div class="flex-1 text-center lg:text-left">
+      <p class="text-xs uppercase tracking-wide text-gray-400">Featured Project</p>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-white mt-1 mb-3">
+        Example Project
+      </h2>
+      <p class="text-gray-300 text-sm sm:text-base leading-relaxed bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
+        Fauget is a modern and elegant e-commerce web application designed for a flower boutique that specializes in fresh and exotic floral arrangements. Users can browse curated flower collections, learn bouquet details, and make seamless purchases online. The clean design emphasizes beauty, color, and freshness for a soothing shopping experience.
+      </p>
+    </div>
+    <!-- Image -->
+    <div class="flex-1">
+      <img src="./assets/exm-project-1.png" alt="Example Project Screenshot"
+        class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
+    </div>
+  </div>
 
+  <!-- Project 2 -->
+  <div class="flex-1 flex flex-col lg:flex-row-reverse items-center gap-6 mt-12 lg:mt-0">
+    <!-- Text -->
+    <div class="flex-1 text-center lg:text-left">
+      <p class="text-gray-300 text-sm sm:text-base leading-relaxed bg-[#1e0536]/10 border border-[#1e0536]/20 rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <span class="font-semibold text-white">Emergency Hotline</span> centralizes government emergency services, allowing citizens to quickly access national emergency numbers. The main helpline is 999 for all emergencies. The interface is simple, offering direct call or copy options and call history for convenience, making emergency support easily accessible across Bangladesh.
+      </p>
+    </div>
+    <!-- Image -->
+    <div class="flex-1">
+      <img src="./assets/exm-project-2.png" alt="Example Project Screenshot"
+        class="w-full h-auto rounded-xl shadow-md hover:scale-105 transition-transform duration-500">
+    </div>
+  </div>
+</section>
+
+
+
+ 
 
 
   </main>
-<footer>
+<footer class="mt-32 py-6 border-t border-gray-600 text-center text-gray-400 text-sm">
+  <h2 class>Contact</h2>
+  &copy; 2024 Abdullah Sheikh. All rights reserved.
+
 
 </footer>
 <script src="./scripts/main.js"></script>
